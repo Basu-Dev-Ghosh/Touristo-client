@@ -1,0 +1,42 @@
+.slider-container {
+  width: 100%;
+  height: 89.5vh !important;
+}
+.slider-inner {
+  height: inherit;
+}
+.carousel-item {
+  position: relative;
+}
+.slider-caption {
+  position: absolute;
+  top: 400px;
+  left: 60%;
+  color: #fff;
+}
+.slider-caption h1 {
+  text-transform: uppercase;
+  font-size: 110px;
+  letter-spacing: 2px;
+}
+.slider-caption button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 35px;
+  border-radius: 6px;
+  background-color: rgb(34, 31, 31);
+  color: #fff;
+  border: 0;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.slider-caption button:hover {
+  background-color: rgba(35, 33, 33, 0.939);
+}
+.slider-caption h1 span {
+  font-size: 30px;
+}
+.carousel-item img {
+  position: absolute;
+  filter: brightness(70%);
+}
